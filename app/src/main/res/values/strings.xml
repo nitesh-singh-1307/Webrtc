@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="str_no_notification">News</string>
+    <string name="str_save_notification">Save</string>
+    <string name="str_type_country">Type country...</string>
+    <string name="str_selected_country">Get your profile to the front of the queue and be seen by more people in your areasas dhaskjdhkajhsdjkhajksdhjkahsdk jahkjhwkjdajhdjas</string>
+    <string name="str_time_auth_name">Get your profile to the fro</string>
+    <string name="str_selected_details">Get your profile to the front of the queue and be seen by more people in your area,
+    Get your profile to the front of the queue and be seen by more people in your area,
+        Get your profile to the front of the queue and be seen by more people in your area,Get your profile to the front of the queue and be seen by more people in your area asdasfas
+    </string>
+    <string name="str_read">Read</string>
+    <string name="str_protest">#protest</string>
+    <string name="str_save">Save</string>
+    <string name="alert">Alert</string>
+    <string name="str_todays">Today</string>
+    <string name="ok">OK</string>
+    <string name="str_login">Login</string>
+    <string name="str_deactivate_account">Deactivate account</string>
+    <string name="str_chat_username">Ashanti</string>
+    <string name="str_notification_description">Like your profile</string>
+    <string name="str_time">10:51 AM</string>
+    <string name="strFirstName">First Name*</string>
+    <string name="strLastName">Last Name*</string>
+    <string name="strEmail">Email*</string>
+    <string name="strPhotos">Photos*</string>
+    <string name="userUnauthenticated">Your session is expired. Please login again.</string>
+    <string name="no_internet">No Internet Connected</string>
+    <string name="msg_no_internet">No Internet connection found. Check your connection try again.</string>
+    <string name="str_enter_lastname">e.g. Ahmed</string>
+    <string name="str_enter_file">e.g. Ahmed</string>
+    <string name="str_validation_lastname">Enter Last Name</string>
+    <string name="time_out">Response time out</string>
+    <string name="date_time">%1s - %2s</string>
+    <string name="next">NEXT</string>
+    <string name="cancel">CANCEL</string>
+    <string name="str_choose_title">Choose :-</string>
+    <string name="str_validation_firstname">Enter First Name</string>
+    <string name="username_or_email">Enter Email id</string>
+    <string name="username">Enter UserName</string>
+    <string name="str_username_validation">Enter the UserName</string>
+    <string name="str_validationusername">Enter the EmailId</string>
+    <string name="str_loginPassword">MobileNumber</string>
+    <string name="str_validationPassword">Enter the Valid Mobile</string>
+    <string name="str_forget_password">ForGot ?</string>
+    <string name="str_not_match">not valide  username and password</string>
+    <string name="str_enter_firstname">e.g. Mohammad</string>
+    <string name="search">Search</string>
+    <string name="today">Today</string>
+    <string name="search_city_weather">Search City Weather</string>
+    <string name="search_for_a_city">Search for a city</string>
+    <string name="str_logout">Logout</string>
+
+</resources>

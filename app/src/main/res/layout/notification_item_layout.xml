@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/notificationConstraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glBegin"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="@dimen/_15sdp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/glEnd"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            app:layout_constraintGuide_end="@dimen/_15sdp" />
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/rivNotificationProfile"
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_9sdp"
+            android:padding="@dimen/_5sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_placeholder"
+            app:layout_constraintStart_toStartOf="@id/glBegin"
+            app:layout_constraintTop_toTopOf="parent"
+            app:riv_corner_radius="@dimen/_30sdp" />
+
+        <ImageView
+            android:id="@+id/ivOnline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_8sdp"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:contentDescription="@null"
+            android:src="@drawable/drawer_check_online_userdot"
+            app:layout_constraintBottom_toBottomOf="@id/rivNotificationProfile"
+            app:layout_constraintStart_toStartOf="@id/rivNotificationProfile"
+            app:layout_constraintTop_toTopOf="@+id/rivNotificationProfile" />
+
+        <TextView
+            android:id="@+id/tvNotificationReceiver"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_7sdp"
+            android:fontFamily="@font/graphic_regular"
+            tools:text="@string/str_chat_username"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12sdp"
+            app:layout_constraintEnd_toEndOf="@+id/glEnd"
+            android:textAlignment="viewStart"
+            app:layout_constraintStart_toEndOf="@id/rivNotificationProfile"
+            app:layout_constraintTop_toTopOf="@id/rivNotificationProfile" />
+
+        <TextView
+            android:id="@+id/tvNotificationPlan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:fontFamily="@font/graphic_regular"
+            tools:text="@string/str_notification_description"
+            android:textColor="@color/color_content_text"
+            android:textSize="@dimen/_10sdp"
+            android:maxLines="2"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="@+id/glEnd"
+            app:layout_constraintStart_toEndOf="@+id/rivNotificationProfile"
+            app:layout_constraintTop_toBottomOf="@id/tvNotificationReceiver" />
+
+        <TextView
+            android:id="@+id/tvNotificationStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/graphic_regular"
+            tools:text="@string/str_time"
+            android:textColor="@color/color_content_text"
+            android:textSize="@dimen/_10ssp"
+            android:textAlignment="viewStart"
+            app:layout_constraintEnd_toEndOf="@id/glEnd"
+            app:layout_constraintTop_toBottomOf="@+id/tvNotificationPlan" />
+
+        <View
+            style="@style/view_line_horizontal"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/_7sdp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvNotificationStatus" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

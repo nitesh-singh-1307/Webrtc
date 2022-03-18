@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/header_toolbar_black" />
+
+
+
+        <TextView
+            android:id="@+id/strUserName"
+            style="@style/profile_register_text"
+            android:text="@string/strFirstName"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/etProfileCreationUsername"
+            style="@style/profile_register_edit"
+            android:background="@drawable/drawable_safety_tips"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="@string/str_enter_firstname"
+            android:inputType="text"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_content_text" />
+
+        <LinearLayout
+            android:id="@+id/llUserNameError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/etProfileCreationFullName"
+            tools:ignore="RtlCompat"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imUserNameError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_error_new" />
+
+            <TextView
+                android:id="@+id/tvUserNameError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/graphic_regular"
+                android:text="@string/str_validation_firstname"
+                android:textColor="@color/color_error"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvFullName"
+            style="@style/profile_register_text"
+            android:text="@string/strLastName"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/etProfileCreationFullName"
+            style="@style/profile_register_edit"
+            android:background="@drawable/drawable_safety_tips"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="@string/str_enter_lastname"
+            android:inputType="text"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_content_text" />
+
+        <LinearLayout
+            android:id="@+id/llFullNameError"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/etProfileCreationFullName"
+            tools:ignore="RtlCompat"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imFullNameError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_error_new" />
+
+            <TextView
+                android:id="@+id/tvFullNameError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/graphic_regular"
+                android:text="@string/str_validation_lastname"
+                android:textColor="@color/color_error"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/tvEmailId"
+            style="@style/profile_register_text"
+            android:text="@string/strEmail"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/etEmailCreation"
+            style="@style/profile_register_edit"
+            android:background="@drawable/drawable_safety_tips"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="@string/str_enter_lastname"
+            android:inputType="text"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_content_text" />
+
+        <LinearLayout
+            android:id="@+id/llFullEmailCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/etProfileCreationFullName"
+            tools:ignore="RtlCompat"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imFullImageCreationError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_error_new" />
+
+            <TextView
+                android:id="@+id/tvEmailError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/graphic_regular"
+                android:text="@string/str_validation_lastname"
+                android:textColor="@color/color_error"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tvPhotos"
+            style="@style/profile_register_text"
+            android:text="@string/strPhotos"
+            android:textAlignment="viewStart" />
+
+        <EditText
+            android:id="@+id/etPhotoCreation"
+            style="@style/profile_register_edit"
+            android:background="@drawable/drawable_safety_tips"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+            android:hint="@string/str_enter_file"
+            android:inputType="text"
+            android:paddingStart="@dimen/_15sdp"
+            android:paddingEnd="0dp"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:textColorHint="@color/color_content_text" />
+
+        <LinearLayout
+            android:id="@+id/llFullPhotoCreation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:gravity="end"
+            android:orientation="horizontal"
+            android:padding="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@+id/etProfileCreationFullName"
+            tools:ignore="RtlCompat"
+            tools:visibility="visible">
+
+            <ImageView
+                android:id="@+id/imFullPhotoCreationError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_error_new" />
+
+            <TextView
+                android:id="@+id/tvPhotoError"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:fontFamily="@font/graphic_regular"
+                android:text="@string/str_validation_lastname"
+                android:textColor="@color/color_error"
+                android:textSize="@dimen/_11sdp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_80sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_30sdp"
+            android:background="@drawable/ucrop_background_pink_button"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:paddingVertical="@dimen/_12sdp">
+
+            <TextView
+                android:id="@+id/tvNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:fontFamily="@font/graphic_regular"
+                android:text="@string/next"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+            <ImageView
+                android:id="@+id/imgArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:src="@drawable/ic_right_next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear2Next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_80sdp"
+            android:background="@drawable/ucrop_background_pink_button"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingHorizontal="@dimen/_15sdp"
+            android:paddingVertical="@dimen/_2sdp">
+
+            <TextView
+                android:id="@+id/tvNextCancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_5sdp"
+                android:fontFamily="@font/graphic_regular"
+                android:text="@string/cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_16ssp" />
+
+            <ImageView
+                android:id="@+id/imgCancelArrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_5sdp"
+                android:src="@drawable/ic_right_next" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</layout>

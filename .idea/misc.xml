@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable-v24/drawer_check_online_userdot.xml" value="0.24427083333333333" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable-v24/ic_back.xml" value="0.25833333333333336" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/dialog_background_filter_inset.xml" value="0.13802083333333334" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/drawable_block_background_radisus.xml" value="0.13802083333333334" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/drawable_error_background.xml" value="0.2537037037037037" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/drawable_normal_background.xml" value="0.2537037037037037" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/drawable_safety_tips.xml" value="0.2537037037037037" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/match_radius.xml" value="0.13802083333333334" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/drawable/ucrop_background_pink_button.xml" value="0.2537037037037037" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/activity_main.xml" value="0.2421875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/activity_splash.xml" value="0.121875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/actvitiy_information.xml" value="0.2421875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/actvitiy_login.xml" value="0.2753108348134991" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/actvitiy_weather.xml" value="0.2" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/dialog_app_loader.xml" value="0.121875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/gallery_camera_layout.xml" value="0.2421875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/header_toolbar_black.xml" value="0.2421875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/header_toolbar_black_secound.xml" value="0.4" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/notification_item_layout.xml" value="0.2421875" />
+        <entry key="..\:/kotlin project/Webrtc/app/src/main/res/layout/profile_creation.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
